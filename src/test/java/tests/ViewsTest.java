@@ -381,6 +381,10 @@ public class ViewsTest extends BaseTest {
         Assert.assertTrue(newPaneIsDisplayed);
     }
 
+    @Owner("Liudmila Plucci")
+    @Severity(SeverityLevel.MINOR)
+    @Feature("UI")
+    @Description("Verify that 'Filtered Build Queue' and 'Filter build executors' are displayed after creating a global view")
     @Test
     public void testGlobalViewAddBothFilters() {
         createAllSixItems();
